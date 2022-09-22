@@ -1,0 +1,7 @@
+:host.hide-first-sibling ::ng-deep router-outlet + * {
+  display: none;
+}
+
+:host ::ng-deep router-outlet + * + * {
+  display: none;
+}
